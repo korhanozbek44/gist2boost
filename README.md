@@ -1,4 +1,7 @@
 # gist2boost
+
+[![npm version](https://badge.fury.io/js/gist2boost.svg)](https://badge.fury.io/js/gist2boost) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dreadful44/gist2boost/issues) [![Join the chat at https://gitter.im/gist2boost](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gist2boost/lobby/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A converter of your Gist notes to Boostnote format.
 
 # Quick Start
