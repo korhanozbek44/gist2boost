@@ -1,0 +1,22 @@
+{
+  "name": "gist2boostnote",
+  "version": "1.0.0",
+  "description": "Download gist note which is type of compability boostnote",
+  "main": "index.js",
+  "author": "Korhan ÖZBEK",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "^2.6.0",
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "cson": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "fs-cson": "^0.3.2",
+    "gist-client": "^1.0.7",
+    "inquirer": "^5.0.1",
+    "path": "^0.12.7"
+  },
+  "bin": {
+    "gist2boost": "./.bin/gist2boost.js"
+  }
+}
