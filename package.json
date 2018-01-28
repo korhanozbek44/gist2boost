@@ -1,10 +1,12 @@
 {
-  "name": "gist2boostnote",
-  "version": "1.0.0",
+  "name": "gist2boost",
+  "version": "1.0.1",
   "description": "Download gist note which is type of compability boostnote",
   "main": "index.js",
   "author": "Korhan ÖZBEK",
-  "license": "GPL-3.0",
+  "url": "https://github.com/dreadful44/gist2boost",
+  "email": "iletisim@korhanozbek.com",
+  "license": "MIT",
   "dependencies": {
     "async": "^2.6.0",
     "chalk": "^2.3.0",
@@ -16,7 +18,12 @@
     "inquirer": "^5.0.1",
     "path": "^0.12.7"
   },
+  "keywords": [
+    "gist",
+    "boostnote",
+    "converter"
+  ],
   "bin": {
-    "gist2boost": "./.bin/gist2boost.js"
+    "gist2boost": "./bin/gist2boost.js"
   }
 }
