@@ -3,6 +3,7 @@
 const program = require('commander');
 const { prompt } = require('inquirer');
 const chalk = require('chalk');
+const packageJson = require('../package.json');
 
 const questions = [
     {
@@ -23,14 +24,14 @@ const questions = [
 ];
 
 program
-    .version('1.0.0', '-v, --version')
+    .version(packageJson.version, '-v, --version')
     .description('Download gist note which is type of compability boostnote.')
     .command('start')
     .alias('s')
     .action(() => {
         console.log(chalk.inverse('\n',
             '*-**-**-**-**-**-**-**-**-** \n',
-            '*       gist2boostnote     * \n',
+            '*         gist2boost       * \n',
             '*   Author : Korhan ÖZBEK  * \n',
             '*-**-**-**-**-**-**-**-**-** \n'));
 

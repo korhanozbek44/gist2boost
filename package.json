@@ -1,6 +1,6 @@
 {
   "name": "gist2boost",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Download gist note which is type of compability boostnote",
   "main": "index.js",
   "author": "Korhan ÖZBEK",
