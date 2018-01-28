@@ -28,15 +28,15 @@ program
     .command('start')
     .alias('s')
     .action(() => {
-        console.log(chalk.blue('\n',
-            '*-**-**-**-**-**-**-**-**-**\n',
-            '*       gist2boostnote     *\n',
-            '*   Author : Korhan ÖZBEK  *\n',
-            '*-**-**-**-**-**-**-**-**-**\n'));
+        console.log(chalk.inverse('\n',
+            '*-**-**-**-**-**-**-**-**-** \n',
+            '*       gist2boostnote     * \n',
+            '*   Author : Korhan ÖZBEK  * \n',
+            '*-**-**-**-**-**-**-**-**-** \n'));
 
         prompt(questions)
             .then((answers) => {
-                require('../lib/index')(answers.username, answers.token, answers.folderId);
+                require('../lib/index')(answers.username, answers.token, answers.folderId, process.cwd());
             })
             .catch((err) => {
                 console.log(chalk.red(`An error occurred. Error : \n ${err}`));

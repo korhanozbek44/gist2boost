@@ -15,8 +15,7 @@
     "fs": "^0.0.1-security",
     "fs-cson": "^0.3.2",
     "gist-client": "^1.0.7",
-    "inquirer": "^5.0.1",
-    "path": "^0.12.7"
+    "inquirer": "^5.0.1"
   },
   "keywords": [
     "gist",
