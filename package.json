@@ -17,6 +17,14 @@
     "gist-client": "^1.0.7",
     "inquirer": "^5.0.1"
   },
+  "homepage": "https://github.com/dreadful44/gist2boost",
+   "bugs": {
+    "url": "https://github.com/dreadful44/gist2boost/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dreadful44/gist2boost"
+  },
   "keywords": [
     "gist",
     "boostnote",
